@@ -25,6 +25,22 @@ fn main() {
 
     // declaring multiple variables simultaniously
     let (a,b,c) = (1,2,3);
-    print!("{} + {} + {} = {}", a, b, c, a+b+c)
+    println!("{} + {} + {} = {}", a, b, c, a+b+c);
+
+    // scalar types
+    // type casting
+    // let pi: f32 = 4; // returns mismatched types error
+    let pi = 4.0;
+    // number seperator
+    // underscores
+    let one_million = 1_000_000;
+    println!("{}", one_million);    
+
+    // characters
+    let char1 = 'A'; // single character, singles quotes
+    let str1 = "Ab"; // string, double quotes
+    // all this and emoji too
+    let smiley_face = '\u{1F601}';
+    println!("{}", smiley_face);
 
 }
